@@ -15,3 +15,5 @@ print("""
 
 
 """)
+print("!!!!! HOMEWORK ANNOUNCEMENT !!!!!")
+print("make sure to read all of chapter 4 <33")
