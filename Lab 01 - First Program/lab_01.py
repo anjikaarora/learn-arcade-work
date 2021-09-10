@@ -8,3 +8,4 @@ lines now!
 
 :p""")
 print("This \n is \n on \n separate \n lines \n wow!")
+print("\t tab function~")
