@@ -1,5 +1,6 @@
 import arcade
 arcade.open_window(600,600,"lab_02")
+#background color
 arcade.set_background_color(arcade.csscolor.PLUM)
 arcade.start_render()
 arcade.draw_lrtb_rectangle_filled(0, 599, 300, 0, arcade.csscolor.BEIGE)
