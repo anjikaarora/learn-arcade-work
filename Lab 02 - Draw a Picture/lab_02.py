@@ -1,20 +1,21 @@
 import arcade
 arcade.open_window(600,600,"lab_02")
 #background color
-arcade.set_background_color(arcade.csscolor.PLUM)
+arcade.set_background_color(arcade.csscolor.NAVY)
 arcade.start_render()
-arcade.draw_lrtb_rectangle_filled(0, 599, 300, 0, arcade.csscolor.BEIGE)
-arcade.draw_lrtb_rectangle_filled(135, 300, 400, 300, arcade.csscolor.NAVY)
-arcade.draw_lrtb_rectangle_filled(200, 335, 360, 300, arcade.csscolor.NAVY)
-arcade.draw_circle_filled(325, 300, 30, arcade.csscolor.BLACK)
-arcade.draw_circle_filled(150, 300, 30, arcade.csscolor.BLACK)
-
-'''arcade.draw_ellipse_filled(200, 370, 60, 80, arcade.csscolor.PERU)
-arcade.draw_triangle_filled(400, 400, 370, 320, 430, 300, arcade.csscolor.PLUM)
-arcade.draw_line(500, 550, 550, 600, arcade.color.RAJAH, 3)
-arcade.draw_circle_filled(500, 550, 40, arcade.color.DARK_GOLDENROD)
-arcade.draw_text("sand :)",
-                 150, 230,
-                 arcade.color.BLACK, 24)'''
+#moon
+arcade.draw_circle_filled(325, 300, 50, arcade.csscolor.LIGHT_SLATE_GRAY)
+arcade.draw_circle_filled(440, 300, 130, arcade.csscolor.NAVY)
+#STARS
+arcade.draw_circle_filled(500, 400, 10, arcade.csscolor.WHEAT)
+arcade.draw_circle_filled(600, 335, 10, arcade.csscolor.WHEAT)
+arcade.draw_circle_filled(190, 540, 10, arcade.csscolor.WHEAT)
+arcade.draw_circle_filled(210, 100, 10, arcade.csscolor.WHEAT)
+arcade.draw_circle_filled(140, 300, 10, arcade.csscolor.WHEAT)
+arcade.draw_circle_filled(195, 470, 10, arcade.csscolor.WHEAT)
+#mountain
+arcade.draw_triangle_filled(0,1,20,200,600,1,arcade.csscolor.PURPLE)
+arcade.draw_triangle_filled(0,1,400,150,600,1,arcade.csscolor.MEDIUM_PURPLE)
+arcade.draw_triangle_filled(0,1,100,100,600,1,arcade.csscolor.PLUM)
 arcade.finish_render()
 arcade.run()

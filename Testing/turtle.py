@@ -8,8 +8,6 @@ arcade.draw_ellipse_filled(300, 350, 200, 250, arcade.csscolor.PERU)
 arcade.draw_ellipse_filled(300, 350, 150, 200, arcade.csscolor.ORANGE)
 #turtle head
 arcade.draw_arc_filled(300, 460, 80, 100, arcade.csscolor.LIME_GREEN, 0, 180)
-#turtle tail
-arcade.draw_arc_filled(300, 460, 80, 100, arcade.csscolor.LIME_GREEN, 0, 180)
 #turtle shell design
 arcade.draw_text(".",
                  300, 400,
@@ -40,6 +38,10 @@ arcade.draw_text(".",
                  arcade.color.BLACK, 24)
 arcade.draw_text(".",
                  300, 349,
+                 arcade.color.BLACK, 24)
+#name
+arcade.draw_text("haribo the turtle :)",
+                 190, 100,
                  arcade.color.BLACK, 24)
 arcade.finish_render()
 arcade.run()
